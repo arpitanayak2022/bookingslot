@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASIC VACCINE SLOT BOOKING</title>
+    <link rel="stylesheet" href="slotstyle.css" >
+    <script src="userScript.js"></script>
+    
+</head>
+<body  >
+    <h1> Basic Vaccine Slot Booking </h1>
+    <span class="sp-style">Registration page</span>
+    
+    <form method="post" action="admin.html" autocomplete="off"  >
+    <table class="my-bg-img-div">
+    <div class="nav-list">
+      <tr>
+      <td><label for="name">NAME:</label></Td> 
+      <td><input name="name" id="name" placeholder="Enter your Name" type="text" maxlength="30" /></td><br/></tr>
+
+      <tr>
+      <td><label for="email">EMAIL_ID:</label></td>
+      <td><input name="email" id="email" placeholder="e.g:xxxxxx@gmail.com" type="email" maxlength="30"/></td><br/></tr>
+        
+      
+      <td><label for="phonenumber">PHONE NO:</label></td>
+      <td><input name="phonenumber" id="phonenumber" placeholder="+91-000-0000-000" type="tel"  maxlength="10"  /></td><br/></tr>
+      
+      <tr>
+      <td><label for="age" >AGE    :</label></td>
+      <td><input name="age" id="age" placeholder="12" type="number"  maxlength="2"  /></td><br/></tr>
+
+      <tr>
+      <td><label for="adhaarnumber" >ADHAAR NO     :</label></td>
+      <td><input name="adhaarnumber" id="adhaarno" placeholder="1234-5678-9000" type="tel"  maxlength="12"  /></td><br/></tr> 
+
+      <tr>
+      <td><label for="address" >ADDRESS :</label></td>
+      <td><textarea id=address id="address" name=address placeholder="street,lane,flat no,pincode" rows=5 required></textarea></td><br/></tr>
+
+      <tr>
+      <td><label for="date">DATE :</label></td>
+      <td><input type="date" id="date" name="date" required data-error="Please Select Date"></td><br/></tr>
+
+      <tr>
+        <td><input type="button"  onclick="addData()" value="submit" ></td>
+    </tr>
+
+   </table>
+   </div> 
+   </form>   
+</body>
+
+
+</html>
